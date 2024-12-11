@@ -922,10 +922,10 @@ Graphics._centerElement = function(element) {
     element.style.bottom = 0;
     element.style.width = width + "px";
     element.style.height = height + "px";
-    element.style.borderTopStyle = "double";
-    element.style.borderRightStyle = "double";
-    element.style.borderBottomStyle = "double";
-    element.style.borderLeftStyle = "double";
+    element.style.borderTopStyle = "unset";
+    element.style.borderRightStyle = "unset";
+    element.style.borderBottomStyle = "unset";
+    element.style.borderLeftStyle = "unset";
     element.style.borderRadius = "0px";
     
 };
