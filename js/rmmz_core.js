@@ -926,7 +926,7 @@ Graphics._centerElement = function(element) {
     element.style.borderRightStyle = "unset";
     element.style.borderBottomStyle = "unset";
     element.style.borderLeftStyle = "unset";
-    element.style.borderRadius = "0px";
+    element.style.borderRadius = "15px";
     
 };
 
