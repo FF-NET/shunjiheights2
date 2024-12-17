@@ -881,6 +881,8 @@ Graphics._updateErrorPrinter = function() {
 Graphics._createCanvas = function() {
     this._canvas = document.createElement("canvas");
     this._canvas.id = "gameCanvas";
+    this._canvas.width =  640 + "px";
+    this._canvas.height = 640 + "px";
     this._updateCanvas();
     document.body.appendChild(this._canvas);
 };
